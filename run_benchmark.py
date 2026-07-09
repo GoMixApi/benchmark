@@ -7,7 +7,7 @@ API_KEY = 'sk-9tBhsoPbftLkbPCyxmHp02SFVqflTwJ5OivufA00PicIppAN'
 BASE_URL = 'https://api.gomixapi.com/v1'
 OUTPUT_DIR = '/opt/gomixapi-benchmark/data'
 
-MODELS = ['deepseek-v4-flash-202605', 'qwen3.7-plus', 'dola-Seed-2.0-lite']
+MODELS = ['deepseek-v4-flash-202605', 'qwen3.7-plus', 'dola-Seed-2.0-lite', 'glm-5.2', 'hy-mt2-plus']
 
 TESTS = {
     'code_generation': {
@@ -47,6 +47,7 @@ def run_test(model, test_name, test_config):
             'success': True,
             'time_seconds': elapsed,
             'output_length': len(out),
+            'output_tokens': resp.usage.completion_tokens if hasattr(resp, 'usage') else len(out),
             'output_preview': out[:100] + ('...' if len(out) > 100 else '')
         }
     except Exception as e:
