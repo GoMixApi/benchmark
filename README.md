@@ -7,8 +7,7 @@ Daily AI model performance comparison across code generation, translation, and l
 *(Auto-updated daily from our Benchmark script)*
 
 ### 2026-07-09
-
-| Model | Code Generation | Translation | Long Context Summary |
+| Model | 💻 Code Generation | 🌐 Translation | 📄 Long Context Summary |
 |-------|:--:|:--:|:--:|
 | **deepseek-v4-flash-202605** | ✅ 3.73s | ✅ 2.07s | ✅ 1.94s |
 | **qwen3.7-plus** | ✅ 24.87s | ✅ 7.76s | ✅ 27.28s |
