@@ -6,6 +6,18 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-07-17
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 3.77s | 2.22s | 2.02s |
+| deepseek-v4-pro-202606 | 3.91s | 2.55s | 2.24s |
+| qwen3.7-plus | 26.67s | 7.17s | 33.76s |
+| dola-Seed-2.0-lite | 16.47s | 12.03s | 7.9s |
+| dola-Seed-2.0-mini | 8.52s | 4.74s | 2.98s |
+| dola-Seed-2.0-pro | 12.27s | 4.55s | 6.84s |
+| glm-5.2 | 4.63s | 2.51s | 2.67s |
+| hy-mt2-plus | 1.94s | 0.79s | 1.01s |
+
 ### 2026-07-16
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|
