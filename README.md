@@ -6,6 +6,24 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-07-23
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 4.96s | 1.96s | 1.91s |
+| deepseek-v4-pro-202606 | 4.28s | 2.57s | 2.27s |
+| qwen3.5-flash | 1.45s | 12.9s | 3.75s |
+| qwen3.6-flash | 16.59s | 10.06s | 7.16s |
+| qwen3.5-plus | 5.23s | 34.73s | 22.06s |
+| qwen3.7-plus | 20.23s | 9.63s | 30.57s |
+| dola-Seed-2.0-lite | 16.95s | 12.2s | 7.31s |
+| dola-Seed-2.0-mini | 12.86s | 5.12s | 3.98s |
+| dola-Seed-2.0-pro | 13.94s | 3.92s | 4.98s |
+| dola-Seed-2.1-turbo | 32.08s | 10.9s | 5.35s |
+| hy3 | 3.23s | 1.24s | 1.91s |
+| kimi-k3 | FAIL | FAIL | FAIL |
+| glm-5.2 | 3.38s | 2.55s | 2.61s |
+| hy-mt2-plus | 2.04s | 0.71s | 0.89s |
+
 ### 2026-07-22
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|
@@ -38,6 +56,24 @@ Daily AI model performance comparison across code generation, translation, and l
 | dola-Seed-2.0-pro | 12.02s | 6.82s | 4.3s |
 | glm-5.2 | 4.53s | 3.3s | 2.9s |
 | hy-mt2-plus | 1.9s | 0.6s | 1.16s |
+
+### 2026-07-23
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 4.96s | 1.96s | 1.91s |
+| deepseek-v4-pro-202606 | 4.28s | 2.57s | 2.27s |
+| qwen3.5-flash | 1.45s | 12.9s | 3.75s |
+| qwen3.6-flash | 16.59s | 10.06s | 7.16s |
+| qwen3.5-plus | 5.23s | 34.73s | 22.06s |
+| qwen3.7-plus | 20.23s | 9.63s | 30.57s |
+| dola-Seed-2.0-lite | 16.95s | 12.2s | 7.31s |
+| dola-Seed-2.0-mini | 12.86s | 5.12s | 3.98s |
+| dola-Seed-2.0-pro | 13.94s | 3.92s | 4.98s |
+| dola-Seed-2.1-turbo | 32.08s | 10.9s | 5.35s |
+| hy3 | 3.23s | 1.24s | 1.91s |
+| kimi-k3 | FAIL | FAIL | FAIL |
+| glm-5.2 | 3.38s | 2.55s | 2.61s |
+| hy-mt2-plus | 2.04s | 0.71s | 0.89s |
 
 ### 2026-07-22
 | Model | Code Generation | Translation | Long Context Summary |
