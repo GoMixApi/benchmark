@@ -7,7 +7,7 @@ API_KEY = 'sk-9tBhsoPbftLkbPCyxmHp02SFVqflTwJ5OivufA00PicIppAN'
 BASE_URL = 'https://api.gomixapi.com/v1'
 OUTPUT_DIR = '/opt/gomixapi-benchmark/data'
 
-MODELS = ['deepseek-v4-flash-202605', 'deepseek-v4-pro-202606', 'qwen3.5-flash', 'qwen3.6-flash', 'qwen3.5-plus', 'qwen3.7-plus', 'dola-Seed-2.0-lite', 'dola-Seed-2.0-mini', 'dola-Seed-2.0-pro', 'dola-Seed-2.1-turbo', 'glm-5.2', 'hy-mt2-plus']
+MODELS = ['deepseek-v4-flash-202605', 'deepseek-v4-pro-202606', 'qwen3.5-flash', 'qwen3.6-flash', 'qwen3.5-plus', 'qwen3.7-plus', 'qwen3.7-plus-1m', 'qwq-plus', 'qwen3-vl-plus', 'dola-Seed-2.0-mini', 'dola-Seed-2.0-lite', 'dola-Seed-2.0-pro', 'dola-Seed-2.1-turbo', 'hy3', 'kimi-k3', 'glm-5.1', 'glm-5.2', 'glm-5-turbo', 'glm-5v-turbo', 'hy-mt2-plus']
 
 TESTS = {
     'code_generation': {
@@ -39,7 +39,7 @@ def run_test(model, test_name, test_config):
             model=model,
             messages=[{'role': 'user', 'content': test_config['prompt']}],
             max_tokens=test_config['max_tokens'],
-            temperature=0.0
+            temperature=1.0 if model == 'kimi-k3' else 0.0
         )
         elapsed = round(time.time() - start, 2)
         out = resp.choices[0].message.content
