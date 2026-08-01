@@ -6,6 +6,30 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-08-01
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | FAIL | FAIL | FAIL |
+| deepseek-v4-pro-202606 | FAIL | FAIL | FAIL |
+| qwen3.5-flash | 1.86s | 6.37s | 3.79s |
+| qwen3.6-flash | 9.63s | 9.84s | 9.69s |
+| qwen3.5-plus | 5.66s | 36.67s | 24.95s |
+| qwen3.7-plus | 18.85s | 9.5s | 26.64s |
+| qwen3.7-plus-1m | 26.0s | 9.35s | 19.36s |
+| qwq-plus | 76.71s | 44.41s | 26.73s |
+| qwen3-vl-plus | 3.74s | 0.47s | 1.35s |
+| dola-Seed-2.0-mini | 5.94s | 3.58s | 2.73s |
+| dola-Seed-2.0-lite | 20.43s | 9.75s | 7.18s |
+| dola-Seed-2.0-pro | 12.99s | 5.9s | 4.3s |
+| dola-Seed-2.1-turbo | 34.55s | 25.85s | 19.21s |
+| hy3 | FAIL | FAIL | FAIL |
+| kimi-k3 | FAIL | FAIL | FAIL |
+| glm-5.1 | FAIL | FAIL | FAIL |
+| glm-5.2 | FAIL | FAIL | FAIL |
+| glm-5-turbo | FAIL | FAIL | FAIL |
+| glm-5v-turbo | FAIL | FAIL | FAIL |
+| hy-mt2-plus | FAIL | FAIL | FAIL |
+
 ### 2026-07-31
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|
@@ -236,6 +260,30 @@ Daily AI model performance comparison across code generation, translation, and l
 | dola-Seed-2.0-pro | 12.02s | 6.82s | 4.3s |
 | glm-5.2 | 4.53s | 3.3s | 2.9s |
 | hy-mt2-plus | 1.9s | 0.6s | 1.16s |
+
+### 2026-08-01
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | FAIL | FAIL | FAIL |
+| deepseek-v4-pro-202606 | FAIL | FAIL | FAIL |
+| qwen3.5-flash | 1.86s | 6.37s | 3.79s |
+| qwen3.6-flash | 9.63s | 9.84s | 9.69s |
+| qwen3.5-plus | 5.66s | 36.67s | 24.95s |
+| qwen3.7-plus | 18.85s | 9.5s | 26.64s |
+| qwen3.7-plus-1m | 26.0s | 9.35s | 19.36s |
+| qwq-plus | 76.71s | 44.41s | 26.73s |
+| qwen3-vl-plus | 3.74s | 0.47s | 1.35s |
+| dola-Seed-2.0-mini | 5.94s | 3.58s | 2.73s |
+| dola-Seed-2.0-lite | 20.43s | 9.75s | 7.18s |
+| dola-Seed-2.0-pro | 12.99s | 5.9s | 4.3s |
+| dola-Seed-2.1-turbo | 34.55s | 25.85s | 19.21s |
+| hy3 | FAIL | FAIL | FAIL |
+| kimi-k3 | FAIL | FAIL | FAIL |
+| glm-5.1 | FAIL | FAIL | FAIL |
+| glm-5.2 | FAIL | FAIL | FAIL |
+| glm-5-turbo | FAIL | FAIL | FAIL |
+| glm-5v-turbo | FAIL | FAIL | FAIL |
+| hy-mt2-plus | FAIL | FAIL | FAIL |
 
 ### 2026-07-31
 | Model | Code Generation | Translation | Long Context Summary |
