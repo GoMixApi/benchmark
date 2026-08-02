@@ -6,6 +6,30 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-08-02
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 12.91s | 2.25s | 2.05s |
+| deepseek-v4-pro-202606 | 3.9s | 2.91s | 2.28s |
+| qwen3.5-flash | 1.47s | 13.9s | 8.09s |
+| qwen3.6-flash | 13.05s | 11.09s | 5.29s |
+| qwen3.5-plus | 5.65s | 31.76s | 44.37s |
+| qwen3.7-plus | 20.77s | 8.18s | 26.55s |
+| qwen3.7-plus-1m | 33.04s | 8.53s | 25.91s |
+| qwq-plus | 112.2s | 88.26s | 76.18s |
+| qwen3-vl-plus | 4.34s | 0.52s | 1.59s |
+| dola-Seed-2.0-mini | 5.74s | 4.68s | 2.96s |
+| dola-Seed-2.0-lite | 14.79s | 10.29s | 6.39s |
+| dola-Seed-2.0-pro | 11.48s | 5.13s | 4.32s |
+| dola-Seed-2.1-turbo | 35.11s | 17.11s | 10.46s |
+| hy3 | 3.02s | 1.13s | 1.99s |
+| kimi-k3 | 7.56s | 4.53s | 3.6s |
+| glm-5.1 | 9.47s | 14.16s | 14.62s |
+| glm-5.2 | 3.38s | 2.39s | 2.03s |
+| glm-5-turbo | 4.41s | 2.41s | 2.06s |
+| glm-5v-turbo | 2.63s | 2.82s | 1.93s |
+| hy-mt2-plus | 1.93s | 0.84s | 1.14s |
+
 ### 2026-08-01
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|
@@ -260,6 +284,30 @@ Daily AI model performance comparison across code generation, translation, and l
 | dola-Seed-2.0-pro | 12.02s | 6.82s | 4.3s |
 | glm-5.2 | 4.53s | 3.3s | 2.9s |
 | hy-mt2-plus | 1.9s | 0.6s | 1.16s |
+
+### 2026-08-02
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 12.91s | 2.25s | 2.05s |
+| deepseek-v4-pro-202606 | 3.9s | 2.91s | 2.28s |
+| qwen3.5-flash | 1.47s | 13.9s | 8.09s |
+| qwen3.6-flash | 13.05s | 11.09s | 5.29s |
+| qwen3.5-plus | 5.65s | 31.76s | 44.37s |
+| qwen3.7-plus | 20.77s | 8.18s | 26.55s |
+| qwen3.7-plus-1m | 33.04s | 8.53s | 25.91s |
+| qwq-plus | 112.2s | 88.26s | 76.18s |
+| qwen3-vl-plus | 4.34s | 0.52s | 1.59s |
+| dola-Seed-2.0-mini | 5.74s | 4.68s | 2.96s |
+| dola-Seed-2.0-lite | 14.79s | 10.29s | 6.39s |
+| dola-Seed-2.0-pro | 11.48s | 5.13s | 4.32s |
+| dola-Seed-2.1-turbo | 35.11s | 17.11s | 10.46s |
+| hy3 | 3.02s | 1.13s | 1.99s |
+| kimi-k3 | 7.56s | 4.53s | 3.6s |
+| glm-5.1 | 9.47s | 14.16s | 14.62s |
+| glm-5.2 | 3.38s | 2.39s | 2.03s |
+| glm-5-turbo | 4.41s | 2.41s | 2.06s |
+| glm-5v-turbo | 2.63s | 2.82s | 1.93s |
+| hy-mt2-plus | 1.93s | 0.84s | 1.14s |
 
 ### 2026-08-01
 | Model | Code Generation | Translation | Long Context Summary |
