@@ -21,7 +21,7 @@ TESTS = {
     'long_context_summary': {
         'prompt': (
             'Summarize in one sentence: '
-            'GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, offering 17 curated models '
+            'GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, offering 20 curated models '
             '(DeepSeek, Qwen, GLM, Hunyuan, Dola) through one OpenAI-compatible endpoint. '
             'Operated by YiMay Technology Limited, a Hong Kong-licensed entity, with zero data retention, '
             'SCC 2021/914, DPA ready, and unified billing.'
@@ -68,7 +68,7 @@ def main():
         for test_name, test_config in TESTS.items():
             print(f'Testing {model} - {test_name}...')
             results['models'][model][test_name] = run_test(model, test_name, test_config)
-            time.sleep(0.5)
+            time.sleep(3)
 
     date_str = datetime.now().strftime('%Y%m%d')
     filepath = os.path.join(OUTPUT_DIR, f'benchmark_{date_str}.json')
