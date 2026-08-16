@@ -3,7 +3,10 @@ import json, time, os
 from datetime import datetime
 from openai import OpenAI
 
-API_KEY = 'sk-9tBhsoPbftLkbPCyxmHp02SFVqflTwJ5OivufA00PicIppAN'
+import os
+API_KEY = os.environ.get('GOMIXAPI_BENCHMARK_KEY')
+if not API_KEY:
+    raise RuntimeError('GOMIXAPI_BENCHMARK_KEY environment variable is not set')
 BASE_URL = 'https://api.gomixapi.com/v1'
 OUTPUT_DIR = '/opt/gomixapi-benchmark/data'
 
@@ -32,30 +35,36 @@ TESTS = {
 
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
-def run_test(model, test_name, test_config):
+def run_test(model, test_name, test_config, max_retries=2, timeout=60):
     start = time.time()
-    try:
-        resp = client.chat.completions.create(
-            model=model,
-            messages=[{'role': 'user', 'content': test_config['prompt']}],
-            max_tokens=test_config['max_tokens'],
-            temperature=1.0 if model == 'kimi-k3' else 0.0
-        )
-        elapsed = round(time.time() - start, 2)
-        out = resp.choices[0].message.content
-        return {
-            'success': True,
-            'time_seconds': elapsed,
-            'output_length': len(out),
-            'output_tokens': resp.usage.completion_tokens if hasattr(resp, 'usage') else len(out),
-            'output_preview': out[:100] + ('...' if len(out) > 100 else '')
-        }
-    except Exception as e:
-        return {
-            'success': False,
-            'time_seconds': round(time.time() - start, 2),
-            'error': str(e)[:200]
-        }
+    last_error = None
+    for attempt in range(max_retries + 1):
+        try:
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[{'role': 'user', 'content': test_config['prompt']}],
+                max_tokens=test_config['max_tokens'],
+                temperature=1.0 if model == 'kimi-k3' else 0.0,
+                timeout=timeout
+            )
+            elapsed = round(time.time() - start, 2)
+            out = resp.choices[0].message.content
+            return {
+                'success': True,
+                'time_seconds': elapsed,
+                'output_length': len(out),
+                'output_tokens': resp.usage.completion_tokens if hasattr(resp, 'usage') else len(out),
+                'output_preview': out[:100] + ('...' if len(out) > 100 else '')
+            }
+        except Exception as e:
+            last_error = e
+            if attempt < max_retries:
+                time.sleep(2)  # 重试前等待2秒
+    return {
+        'success': False,
+        'time_seconds': round(time.time() - start, 2),
+        'error': str(last_error)[:200] if last_error else 'unknown'
+    }
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
