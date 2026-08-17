@@ -4,7 +4,7 @@ from datetime import datetime
 from openai import OpenAI
 
 import os
-API_KEY = 'faL4QtarjQzQUPy8IdjlyD9clbRutdp7VbXuBW82pizouGiT'
+API_KEY = os.environ.get('GOMIXAPI_BENCHMARK_KEY', 'YOUR_KEY_HERE')
 BASE_URL = 'https://api.gomixapi.com/v1'
 OUTPUT_DIR = '/opt/gomixapi-benchmark/data'
 
