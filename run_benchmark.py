@@ -4,9 +4,7 @@ from datetime import datetime
 from openai import OpenAI
 
 import os
-API_KEY = os.environ.get('GOMIXAPI_BENCHMARK_KEY')
-if not API_KEY:
-    raise RuntimeError('GOMIXAPI_BENCHMARK_KEY environment variable is not set')
+API_KEY = 'faL4QtarjQzQUPy8IdjlyD9clbRutdp7VbXuBW82pizouGiT'
 BASE_URL = 'https://api.gomixapi.com/v1'
 OUTPUT_DIR = '/opt/gomixapi-benchmark/data'
 
