@@ -6,6 +6,30 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-08-23
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 4.21s | 2.57s | 2.07s |
+| deepseek-v4-pro-202606 | 5.48s | 4.91s | 4.26s |
+| qwen3.5-flash | 1.45s | 14.6s | 5.96s |
+| qwen3.6-flash | 10.07s | 12.46s | 9.27s |
+| qwen3.5-plus | 2.82s | 23.4s | 11.34s |
+| qwen3.7-plus | 21.21s | 7.89s | 28.31s |
+| qwen3.7-plus-1m | 30.79s | 8.0s | 29.37s |
+| qwq-plus | 230.22s | 27.2s | 14.28s |
+| qwen3-vl-plus | 3.16s | 0.47s | 1.51s |
+| dola-Seed-2.0-mini | 4.91s | 4.71s | 3.79s |
+| dola-Seed-2.0-lite | 16.37s | 9.99s | 10.47s |
+| dola-Seed-2.0-pro | 9.95s | 4.53s | 3.73s |
+| dola-Seed-2.1-turbo | 22.07s | 28.63s | 9.71s |
+| hy3 | 3.06s | 1.12s | 1.68s |
+| kimi-k3 | 4.64s | 5.21s | 2.85s |
+| glm-5.1 | 4.18s | 2.51s | 2.14s |
+| glm-5.2 | 3.35s | 2.22s | 1.96s |
+| glm-5-turbo | 8.73s | 15.77s | 16.52s |
+| glm-5v-turbo | 2.42s | 1.67s | 1.31s |
+| hy-mt2-plus | 2.18s | 0.72s | 1.21s |
+
 ### 2026-08-22
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|
