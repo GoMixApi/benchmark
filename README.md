@@ -6,6 +6,102 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-08-27
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 2.52s | 2.57s | 1.95s |
+| deepseek-v4-pro-202606 | 5.41s | 2.16s | 3.44s |
+| qwen3.5-flash | 1.68s | 10.13s | 17.45s |
+| qwen3.6-flash | 10.9s | 10.1s | 5.7s |
+| qwen3.5-plus | 6.93s | 51.91s | 87.6s |
+| qwen3.7-plus | 22.57s | 8.76s | 31.42s |
+| qwen3.7-plus-1m | 19.03s | 7.71s | 26.63s |
+| qwq-plus | 94.41s | 13.78s | 13.42s |
+| qwen3-vl-plus | 3.0s | 0.6s | 1.31s |
+| dola-Seed-2.0-mini | 7.29s | 3.61s | 3.05s |
+| dola-Seed-2.0-lite | 19.1s | 10.64s | 10.7s |
+| dola-Seed-2.0-pro | 16.59s | 4.47s | 5.02s |
+| dola-Seed-2.1-turbo | 50.1s | 29.65s | 8.9s |
+| hy3 | 4.07s | 2.21s | 1.85s |
+| kimi-k3 | 17.11s | 7.64s | 7.58s |
+| glm-5.1 | 4.2s | 2.41s | 2.13s |
+| glm-5.2 | 3.4s | 2.19s | 1.84s |
+| glm-5-turbo | 10.02s | 17.36s | 13.27s |
+| glm-5v-turbo | 2.51s | 1.55s | 1.29s |
+| hy-mt2-plus | 1.95s | 0.55s | 0.82s |
+
+### 2026-08-26
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 5.78s | 2.17s | 1.69s |
+| deepseek-v4-pro-202606 | 3.29s | 2.07s | 2.91s |
+| qwen3.5-flash | 2.0s | 13.38s | 14.16s |
+| qwen3.6-flash | 12.13s | 8.76s | 10.66s |
+| qwen3.5-plus | 6.44s | 51.92s | 32.0s |
+| qwen3.7-plus | 23.98s | 8.8s | 31.82s |
+| qwen3.7-plus-1m | 25.23s | 8.22s | 36.71s |
+| qwq-plus | 176.5s | 23.39s | 21.77s |
+| qwen3-vl-plus | 3.83s | 1.14s | 1.93s |
+| dola-Seed-2.0-mini | 8.56s | 3.06s | 2.92s |
+| dola-Seed-2.0-lite | 18.94s | 15.63s | 9.56s |
+| dola-Seed-2.0-pro | 14.23s | 5.32s | 4.57s |
+| dola-Seed-2.1-turbo | 34.14s | 22.92s | 14.7s |
+| hy3 | 4.14s | 2.31s | 1.76s |
+| kimi-k3 | 11.69s | 6.7s | 4.55s |
+| glm-5.1 | 4.52s | 2.74s | 2.17s |
+| glm-5.2 | 3.98s | 2.41s | 2.09s |
+| glm-5-turbo | 9.89s | 14.41s | 13.99s |
+| glm-5v-turbo | 2.62s | 1.84s | 1.39s |
+| hy-mt2-plus | 2.18s | 0.87s | 1.38s |
+
+### 2026-08-25
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 5.53s | 2.48s | 2.43s |
+| deepseek-v4-pro-202606 | 5.95s | 1.29s | 2.79s |
+| qwen3.5-flash | 1.63s | 8.91s | 6.8s |
+| qwen3.6-flash | 9.54s | 13.91s | 4.26s |
+| qwen3.5-plus | 3.55s | 28.04s | 9.61s |
+| qwen3.7-plus | 22.86s | 7.75s | 22.02s |
+| qwen3.7-plus-1m | 23.3s | 7.92s | 39.29s |
+| qwq-plus | 46.15s | 41.43s | 20.77s |
+| qwen3-vl-plus | 3.13s | 0.64s | 2.17s |
+| dola-Seed-2.0-mini | 6.95s | 4.53s | 2.88s |
+| dola-Seed-2.0-lite | 20.39s | 9.81s | 7.56s |
+| dola-Seed-2.0-pro | 12.31s | 4.89s | 4.86s |
+| dola-Seed-2.1-turbo | 44.37s | 18.38s | 10.82s |
+| hy3 | 3.15s | 1.23s | 1.83s |
+| kimi-k3 | 8.13s | 3.49s | 3.13s |
+| glm-5.1 | 5.98s | 4.88s | 4.07s |
+| glm-5.2 | 3.63s | 2.69s | 1.95s |
+| glm-5-turbo | 7.39s | 9.77s | 13.14s |
+| glm-5v-turbo | 2.28s | 1.49s | 1.21s |
+| hy-mt2-plus | 2.14s | 0.81s | 1.18s |
+
+### 2026-08-24
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 4.84s | 2.98s | 2.04s |
+| deepseek-v4-pro-202606 | 4.49s | 1.88s | 2.74s |
+| qwen3.5-flash | 1.67s | 7.73s | 10.33s |
+| qwen3.6-flash | 7.17s | 7.0s | 3.98s |
+| qwen3.5-plus | 3.51s | 30.26s | 11.17s |
+| qwen3.7-plus | 25.48s | 8.06s | 27.77s |
+| qwen3.7-plus-1m | 26.18s | 7.76s | 34.45s |
+| qwq-plus | 39.61s | 41.25s | 21.61s |
+| qwen3-vl-plus | 3.04s | 0.74s | 1.52s |
+| dola-Seed-2.0-mini | 8.84s | 2.55s | 3.02s |
+| dola-Seed-2.0-lite | 19.66s | 12.76s | 8.33s |
+| dola-Seed-2.0-pro | 13.13s | 4.81s | 4.87s |
+| dola-Seed-2.1-turbo | 47.5s | 21.43s | 17.45s |
+| hy3 | 2.12s | 1.02s | 1.74s |
+| kimi-k3 | 6.63s | 4.57s | 3.9s |
+| glm-5.1 | 4.1s | 2.78s | 2.27s |
+| glm-5.2 | 3.56s | 2.32s | 2.23s |
+| glm-5-turbo | 7.14s | 15.74s | 15.08s |
+| glm-5v-turbo | 2.98s | 1.39s | 1.22s |
+| hy-mt2-plus | 2.27s | 0.88s | 1.12s |
+
 ### 2026-08-23
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|
