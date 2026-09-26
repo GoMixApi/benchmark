@@ -6,6 +6,174 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-09-26
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 2.74s | 1.82s | 1.48s |
+| deepseek-v4-pro-202606 | 6.12s | 2.61s | 5.36s |
+| qwen3.5-flash | 1.65s | 6.45s | 7.7s |
+| qwen3.6-flash | 16.58s | 17.4s | 8.86s |
+| qwen3.5-plus | 6.34s | 41.2s | 26.56s |
+| qwen3.7-plus | 16.19s | 5.82s | 25.89s |
+| qwen3.7-plus-1m | 21.09s | 5.54s | 16.35s |
+| qwq-plus | 31.17s | 18.22s | 11.49s |
+| qwen3-vl-plus | 3.27s | 1.23s | 1.67s |
+| dola-Seed-2.0-mini | 6.26s | 6.46s | 2.86s |
+| dola-Seed-2.0-lite | 23.82s | 16.26s | 7.36s |
+| dola-Seed-2.0-pro | 22.46s | 8.18s | 6.86s |
+| dola-Seed-2.1-turbo | 44.35s | 27.26s | 12.67s |
+| hy3 | 2.6s | 2.0s | 1.96s |
+| kimi-k3 | 6.51s | 3.14s | 5.0s |
+| glm-5.1 | FAIL | FAIL | FAIL |
+| glm-5.2 | 5.01s | FAIL | FAIL |
+| glm-5-turbo | 8.93s | 6.69s | 4.67s |
+| glm-5v-turbo | 4.39s | 2.07s | 2.01s |
+| hy-mt2-plus | 1.88s | 0.48s | 0.89s |
+
+### 2026-09-25
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 3.26s | 1.61s | 1.56s |
+| deepseek-v4-pro-202606 | 11.63s | 6.76s | 4.01s |
+| qwen3.5-flash | 1.45s | 6.56s | 6.93s |
+| qwen3.6-flash | 13.42s | 14.0s | 4.14s |
+| qwen3.5-plus | 6.32s | 22.94s | 50.52s |
+| qwen3.7-plus | 16.97s | 7.27s | 13.19s |
+| qwen3.7-plus-1m | 25.77s | 7.1s | 18.47s |
+| qwq-plus | 39.21s | 34.05s | 12.12s |
+| qwen3-vl-plus | 4.1s | 0.95s | 1.88s |
+| dola-Seed-2.0-mini | 6.71s | 2.83s | 3.07s |
+| dola-Seed-2.0-lite | 17.91s | 11.04s | 8.79s |
+| dola-Seed-2.0-pro | 18.19s | 6.89s | 5.97s |
+| dola-Seed-2.1-turbo | 44.07s | 25.29s | 8.15s |
+| hy3 | 2.8s | 2.16s | 1.78s |
+| kimi-k3 | 7.8s | 6.63s | 3.01s |
+| glm-5.1 | FAIL | FAIL | FAIL |
+| glm-5.2 | FAIL | FAIL | FAIL |
+| glm-5-turbo | 8.74s | 6.35s | 5.33s |
+| glm-5v-turbo | 5.89s | 2.2s | 22.59s |
+| hy-mt2-plus | 1.85s | 0.47s | 0.89s |
+
+### 2026-09-24
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 2.72s | 1.53s | 1.26s |
+| deepseek-v4-pro-202606 | 8.1s | 3.68s | 5.71s |
+| qwen3.5-flash | 1.52s | 6.34s | 12.19s |
+| qwen3.6-flash | 9.84s | 7.06s | 4.31s |
+| qwen3.5-plus | 7.27s | 43.92s | 58.83s |
+| qwen3.7-plus | 16.94s | 6.73s | 22.12s |
+| qwen3.7-plus-1m | 16.14s | 6.04s | 17.38s |
+| qwq-plus | 59.66s | 31.36s | 37.55s |
+| qwen3-vl-plus | 3.0s | 0.5s | 1.27s |
+| dola-Seed-2.0-mini | 5.79s | 4.2s | 2.72s |
+| dola-Seed-2.0-lite | 16.65s | 10.97s | 6.66s |
+| dola-Seed-2.0-pro | 13.46s | 5.67s | 9.37s |
+| dola-Seed-2.1-turbo | 56.55s | 26.2s | 11.33s |
+| hy3 | 3.34s | 2.2s | 2.14s |
+| kimi-k3 | 5.23s | 3.6s | 3.13s |
+| glm-5.1 | 10.15s | 5.46s | 2.35s |
+| glm-5.2 | 10.84s | FAIL | FAIL |
+| glm-5-turbo | 8.57s | 6.67s | 6.66s |
+| glm-5v-turbo | 6.74s | 3.08s | 3.52s |
+| hy-mt2-plus | 1.87s | 0.47s | 0.9s |
+
+### 2026-09-23
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 4.78s | 2.28s | 1.69s |
+| deepseek-v4-pro-202606 | 8.0s | 4.55s | 5.51s |
+| qwen3.5-flash | 1.59s | 14.11s | 10.44s |
+| qwen3.6-flash | 13.44s | 7.56s | 2.87s |
+| qwen3.5-plus | 6.46s | 24.64s | 34.3s |
+| qwen3.7-plus | 20.35s | 7.23s | 21.7s |
+| qwen3.7-plus-1m | 29.41s | 6.76s | 32.26s |
+| qwq-plus | 34.34s | 23.69s | 14.62s |
+| qwen3-vl-plus | 2.58s | 0.59s | 1.31s |
+| dola-Seed-2.0-mini | 8.1s | 4.81s | 3.29s |
+| dola-Seed-2.0-lite | 27.04s | 13.41s | 9.73s |
+| dola-Seed-2.0-pro | 11.83s | 5.27s | 5.4s |
+| dola-Seed-2.1-turbo | 38.04s | 22.28s | 8.3s |
+| hy3 | 2.85s | 2.69s | 2.16s |
+| kimi-k3 | 7.42s | 3.58s | 3.32s |
+| glm-5.1 | 6.28s | 6.3s | 9.18s |
+| glm-5.2 | 21.09s | FAIL | FAIL |
+| glm-5-turbo | 9.13s | 6.01s | 5.65s |
+| glm-5v-turbo | 3.97s | 2.39s | 2.08s |
+| hy-mt2-plus | 1.84s | 0.5s | 0.84s |
+
+### 2026-09-22
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 4.17s | 1.68s | 1.68s |
+| deepseek-v4-pro-202606 | 5.84s | 1.53s | 3.41s |
+| qwen3.5-flash | 1.68s | 6.52s | 9.17s |
+| qwen3.6-flash | 11.98s | 6.92s | 8.98s |
+| qwen3.5-plus | 7.23s | 46.12s | 34.05s |
+| qwen3.7-plus | 19.16s | 6.47s | 14.45s |
+| qwen3.7-plus-1m | 18.03s | 5.68s | 15.45s |
+| qwq-plus | 41.89s | 22.43s | 12.81s |
+| qwen3-vl-plus | 5.21s | 1.46s | 2.08s |
+| dola-Seed-2.0-mini | 6.3s | 3.37s | 3.1s |
+| dola-Seed-2.0-lite | 23.15s | 14.36s | 10.46s |
+| dola-Seed-2.0-pro | 13.78s | 5.59s | 4.5s |
+| dola-Seed-2.1-turbo | 35.26s | 20.02s | 9.93s |
+| hy3 | 2.87s | 2.69s | 1.88s |
+| kimi-k3 | 5.33s | 2.25s | 17.09s |
+| glm-5.1 | 7.38s | 4.69s | 6.15s |
+| glm-5.2 | FAIL | FAIL | FAIL |
+| glm-5-turbo | 8.05s | 6.09s | 6.85s |
+| glm-5v-turbo | 5.36s | 4.06s | 2.97s |
+| hy-mt2-plus | 1.85s | 0.54s | 0.87s |
+
+### 2026-09-21
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 4.17s | 1.84s | 1.82s |
+| deepseek-v4-pro-202606 | 3.53s | 5.51s | 3.13s |
+| qwen3.5-flash | 1.68s | 6.42s | 8.13s |
+| qwen3.6-flash | 13.22s | 7.88s | 6.12s |
+| qwen3.5-plus | 6.65s | 33.49s | 35.18s |
+| qwen3.7-plus | 24.54s | 5.98s | 21.34s |
+| qwen3.7-plus-1m | 24.07s | 7.82s | 22.54s |
+| qwq-plus | 108.16s | 16.22s | 15.46s |
+| qwen3-vl-plus | 4.93s | 0.52s | 1.53s |
+| dola-Seed-2.0-mini | 8.76s | 3.48s | 3.01s |
+| dola-Seed-2.0-lite | 21.24s | 15.69s | 7.54s |
+| dola-Seed-2.0-pro | 13.3s | 4.91s | 5.49s |
+| dola-Seed-2.1-turbo | 40.83s | 16.29s | 13.43s |
+| hy3 | 3.06s | 2.4s | 1.97s |
+| kimi-k3 | 11.35s | 2.2s | 11.34s |
+| glm-5.1 | 10.12s | 8.46s | 7.12s |
+| glm-5.2 | 21.66s | FAIL | FAIL |
+| glm-5-turbo | 9.67s | 6.82s | 5.05s |
+| glm-5v-turbo | 8.51s | 2.62s | 2.61s |
+| hy-mt2-plus | 1.81s | 0.49s | 0.88s |
+
+### 2026-09-20
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 3.45s | 2.18s | 1.6s |
+| deepseek-v4-pro-202606 | 3.49s | 4.94s | 3.11s |
+| qwen3.5-flash | 1.85s | 10.33s | 5.48s |
+| qwen3.6-flash | 9.99s | 6.23s | 10.85s |
+| qwen3.5-plus | 7.07s | 39.62s | 81.84s |
+| qwen3.7-plus | 20.21s | 8.71s | 25.13s |
+| qwen3.7-plus-1m | 27.1s | 6.58s | 20.9s |
+| qwq-plus | 55.96s | 27.9s | 17.11s |
+| qwen3-vl-plus | 3.15s | 0.88s | 1.5s |
+| dola-Seed-2.0-mini | 5.32s | 2.14s | 3.15s |
+| dola-Seed-2.0-lite | 18.85s | 10.16s | 7.2s |
+| dola-Seed-2.0-pro | 12.59s | 4.96s | 4.55s |
+| dola-Seed-2.1-turbo | 29.1s | 23.95s | 9.35s |
+| hy3 | 2.4s | 2.12s | 1.79s |
+| kimi-k3 | 5.74s | 5.07s | 2.97s |
+| glm-5.1 | 9.05s | 6.38s | 5.39s |
+| glm-5.2 | 18.43s | FAIL | FAIL |
+| glm-5-turbo | 8.03s | 6.54s | 4.86s |
+| glm-5v-turbo | 6.2s | 2.71s | 2.22s |
+| hy-mt2-plus | 1.77s | 0.38s | 0.89s |
+
 ### 2026-09-19
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|

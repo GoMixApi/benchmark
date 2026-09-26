@@ -1,208 +1,208 @@
 {
-  "timestamp": "2026-09-26T03:00:03+08:00",
+  "timestamp": "2026-09-24T03:00:02+08:00",
   "models": {
     "deepseek-v4-flash-202605": {
       "code_generation": {
         "success": true,
-        "time_seconds": 2.74,
-        "output_length": 518,
-        "output_tokens": 203,
-        "output_preview": "```python\ndef fibonacci(n):\n    \"\"\"\n    Return a list of the first n Fibonacci numbers.\n    \n    Arg..."
+        "time_seconds": 2.72,
+        "output_length": 365,
+        "output_tokens": 354,
+        "output_preview": "```python\ndef fibonacci(n):\n    \"\"\"Return the first n terms of the Fibonacci sequence.\"\"\"\n    if n <..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 1.82,
-        "output_length": 17,
-        "output_tokens": 172,
-        "output_preview": "人工智能正在变革东南亚的各行各业。"
+        "time_seconds": 1.53,
+        "output_length": 20,
+        "output_tokens": 204,
+        "output_preview": "人工智能正在改变整个东南亚的每一个行业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 1.48,
-        "output_length": 329,
-        "output_tokens": 90,
-        "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, operated by Hong Kong-licensed YiMay ..."
+        "time_seconds": 1.26,
+        "output_length": 291,
+        "output_tokens": 138,
+        "output_preview": "GoMixAPI is an enterprise-ready Southeast Asian AI gateway by Hong Kong-licensed YiMay Technology Li..."
       }
     },
     "deepseek-v4-pro-202606": {
       "code_generation": {
         "success": true,
-        "time_seconds": 6.12,
-        "output_length": 499,
-        "output_tokens": 395,
-        "output_preview": "```python\ndef fibonacci(n):\n    \"\"\"\n    Return a list of the first n Fibonacci numbers.\n\n    The seq..."
+        "time_seconds": 8.1,
+        "output_length": 507,
+        "output_tokens": 373,
+        "output_preview": "```python\ndef fibonacci(n):\n    \"\"\"\n    Return a list of the first n Fibonacci numbers.\n\n    Args:\n ..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 2.61,
+        "time_seconds": 3.68,
         "output_length": 18,
-        "output_tokens": 61,
+        "output_tokens": 128,
         "output_preview": "人工智能正在改变东南亚的每一个行业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 5.36,
-        "output_length": 299,
-        "output_tokens": 304,
-        "output_preview": "GoMixAPI, operated by Hong Kong-licensed YiMay Technology Limited, is an enterprise-ready AI gateway..."
+        "time_seconds": 5.71,
+        "output_length": 295,
+        "output_tokens": 272,
+        "output_preview": "GoMixAPI, operated by Hong Kong-licensed YiMay Technology Limited, is an enterprise-ready Southeast ..."
       }
     },
     "qwen3.5-flash": {
       "code_generation": {
         "success": true,
-        "time_seconds": 1.65,
+        "time_seconds": 1.52,
         "output_length": 823,
         "output_tokens": 319,
         "output_preview": "Here's a Python function that calculates the Fibonacci sequence up to `n` terms using an efficient i..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 6.45,
+        "time_seconds": 6.34,
         "output_length": 17,
         "output_tokens": 1403,
         "output_preview": "人工智能正在重塑东南亚的各行各业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 7.7,
-        "output_length": 303,
-        "output_tokens": 1609,
-        "output_preview": "Operated by Hong Kong-licensed YiMay Technology Limited, GoMixAPI is an enterprise-ready AI gateway ..."
+        "time_seconds": 12.19,
+        "output_length": 271,
+        "output_tokens": 2230,
+        "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia operated by Hong Kong-licensed YiMay T..."
       }
     },
     "qwen3.6-flash": {
       "code_generation": {
         "success": true,
-        "time_seconds": 16.58,
-        "output_length": 674,
-        "output_tokens": 2024,
-        "output_preview": "Here's a clean, efficient implementation using an iterative approach:\n\n```python\ndef fibonacci(n: in..."
+        "time_seconds": 9.84,
+        "output_length": 711,
+        "output_tokens": 1379,
+        "output_preview": "Here's a clean, efficient Python function to generate the Fibonacci sequence up to `n` terms:\n\n```py..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 17.4,
+        "time_seconds": 7.06,
         "output_length": 19,
-        "output_tokens": 2008,
-        "output_preview": "人工智能正在重塑东南亚地区的各行各业。"
+        "output_tokens": 1034,
+        "output_preview": "人工智能正在重塑整个东南亚的各行各业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 8.86,
+        "time_seconds": 4.31,
         "output_length": 275,
-        "output_tokens": 1043,
-        "output_preview": "GoMixAPI is an enterprise-ready Southeast Asian AI gateway operated by Hong Kong-licensed YiMay Tech..."
+        "output_tokens": 714,
+        "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, operated by Hong Kong-licensed YiMay ..."
       }
     },
     "qwen3.5-plus": {
       "code_generation": {
         "success": true,
-        "time_seconds": 6.34,
-        "output_length": 753,
-        "output_tokens": 323,
-        "output_preview": "# Fibonacci Sequence Generator in Python\n\nHere's a Python function that calculates the Fibonacci seq..."
+        "time_seconds": 7.27,
+        "output_length": 771,
+        "output_tokens": 326,
+        "output_preview": "Here's a Python function that calculates the Fibonacci sequence up to `n` terms using an iterative a..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 41.2,
-        "output_length": 19,
-        "output_tokens": 2378,
-        "output_preview": "人工智能正在重塑东南亚各地的各行各业。"
+        "time_seconds": 43.92,
+        "output_length": 17,
+        "output_tokens": 2540,
+        "output_preview": "人工智能正在重塑东南亚的各行各业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 26.56,
-        "output_length": 247,
-        "output_tokens": 1485,
-        "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia operated by Hong Kong-licensed YiMay T..."
+        "time_seconds": 58.83,
+        "output_length": 241,
+        "output_tokens": 3409,
+        "output_preview": "GoMixAPI is a compliant, enterprise-ready AI gateway for Southeast Asia operated by Hong Kong-licens..."
       }
     },
     "qwen3.7-plus": {
       "code_generation": {
         "success": true,
-        "time_seconds": 16.19,
-        "output_length": 813,
-        "output_tokens": 1310,
-        "output_preview": "Here is the Python function to calculate the Fibonacci sequence up to `n` terms. \n\nI have included a..."
+        "time_seconds": 16.94,
+        "output_length": 777,
+        "output_tokens": 1287,
+        "output_preview": "Here is the Python function to calculate the Fibonacci sequence up to `n` terms. \n\nI have provided t..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 5.82,
+        "time_seconds": 6.73,
         "output_length": 19,
-        "output_tokens": 428,
+        "output_tokens": 478,
         "output_preview": "人工智能正在重塑东南亚地区的各行各业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 25.89,
-        "output_length": 261,
-        "output_tokens": 1989,
-        "output_preview": "Operated by a Hong Kong-licensed entity, GoMixAPI is an enterprise-ready AI gateway for Southeast As..."
+        "time_seconds": 22.12,
+        "output_length": 233,
+        "output_tokens": 1728,
+        "output_preview": "GoMixAPI is a secure, enterprise-ready AI gateway for Southeast Asia operated by a Hong Kong-license..."
       }
     },
     "qwen3.7-plus-1m": {
       "code_generation": {
         "success": true,
-        "time_seconds": 21.09,
-        "output_length": 812,
-        "output_tokens": 1543,
-        "output_preview": "Here is the Python function to calculate the Fibonacci sequence up to `n` terms. \n\nI have provided t..."
+        "time_seconds": 16.14,
+        "output_length": 696,
+        "output_tokens": 1239,
+        "output_preview": "Here are two ways to calculate the Fibonacci sequence up to `n` terms in Python. \n\n### 1. Standard A..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 5.54,
+        "time_seconds": 6.04,
         "output_length": 19,
-        "output_tokens": 414,
+        "output_tokens": 444,
         "output_preview": "人工智能正在重塑东南亚地区的各行各业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 16.35,
-        "output_length": 244,
-        "output_tokens": 1342,
-        "output_preview": "GoMixAPI is a secure, enterprise-ready AI gateway for Southeast Asia operated by a Hong Kong-license..."
+        "time_seconds": 17.38,
+        "output_length": 237,
+        "output_tokens": 1381,
+        "output_preview": "GoMixAPI, operated by Hong Kong-licensed YiMay Technology, is an enterprise-ready AI gateway for Sou..."
       }
     },
     "qwq-plus": {
       "code_generation": {
         "success": true,
-        "time_seconds": 31.17,
+        "time_seconds": 59.66,
         "output_length": 0,
-        "output_tokens": 1233,
+        "output_tokens": 2369,
         "output_preview": ""
       },
       "translation": {
         "success": true,
-        "time_seconds": 18.22,
+        "time_seconds": 31.36,
         "output_length": 0,
-        "output_tokens": 714,
+        "output_tokens": 1240,
         "output_preview": ""
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 11.49,
+        "time_seconds": 37.55,
         "output_length": 0,
-        "output_tokens": 448,
+        "output_tokens": 1487,
         "output_preview": ""
       }
     },
     "qwen3-vl-plus": {
       "code_generation": {
         "success": true,
-        "time_seconds": 3.27,
-        "output_length": 771,
+        "time_seconds": 3.0,
+        "output_length": 775,
         "output_tokens": 200,
         "output_preview": "Here's a Python function to calculate the Fibonacci sequence up to `n` terms:\n\n```python\ndef fibonac..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 1.23,
+        "time_seconds": 0.5,
         "output_length": 17,
         "output_tokens": 9,
         "output_preview": "人工智能正在重塑东南亚的各个行业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 1.67,
+        "time_seconds": 1.27,
         "output_length": 282,
         "output_tokens": 76,
         "output_preview": "GoMixAPI is an enterprise-ready, Hong Kong–licensed AI gateway for Southeast Asia, providing 20 cura..."
@@ -211,113 +211,113 @@
     "dola-Seed-2.0-mini": {
       "code_generation": {
         "success": true,
-        "time_seconds": 6.26,
-        "output_length": 739,
-        "output_tokens": 934,
+        "time_seconds": 5.79,
+        "output_length": 770,
+        "output_tokens": 913,
         "output_preview": "To solve this problem, we need to create a Python function that generates the Fibonacci sequence up ..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 6.46,
-        "output_length": 229,
-        "output_tokens": 822,
-        "output_preview": "人工智能正在变革东南亚地区的每一个行业。\n\n### 说明：\n- \"Artificial intelligence\" 译为通用术语 **人工智能**；\n- \"is transforming\" 结合语境（..."
+        "time_seconds": 4.2,
+        "output_length": 203,
+        "output_tokens": 623,
+        "output_preview": "人工智能正在重塑东南亚的各个行业。\n\n### 说明：\n- \"Artificial intelligence\" 译为通用标准术语“人工智能”；\n- \"transforming\" 结合语境（产业变革）选用..."
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 2.86,
+        "time_seconds": 2.72,
         "output_length": 307,
-        "output_tokens": 438,
+        "output_tokens": 482,
         "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, operated by Hong Kong-licensed YiMay ..."
       }
     },
     "dola-Seed-2.0-lite": {
       "code_generation": {
         "success": true,
-        "time_seconds": 23.82,
-        "output_length": 791,
-        "output_tokens": 1633,
+        "time_seconds": 16.65,
+        "output_length": 770,
+        "output_tokens": 1263,
         "output_preview": "Here's an efficient, robust Python function to generate the Fibonacci sequence up to `n` terms, with..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 16.26,
-        "output_length": 187,
-        "output_tokens": 741,
-        "output_preview": "### 自然地道的标准译法（符合中文科技、行业讨论的常用表述习惯）：\n**人工智能正在深刻变革东南亚地区的各行各业。**\n\n#### 说明：\n这里将`transforming`译为「深刻变革」而非字面..."
+        "time_seconds": 10.97,
+        "output_length": 420,
+        "output_tokens": 644,
+        "output_preview": "The natural, contextually accurate translation (aligned with standard tech and industry discourse in..."
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 7.36,
-        "output_length": 348,
-        "output_tokens": 575,
-        "output_preview": "GoMixAPI is an enterprise-ready Southeast Asia-focused AI gateway operated by Hong Kong-licensed YiM..."
+        "time_seconds": 6.66,
+        "output_length": 349,
+        "output_tokens": 587,
+        "output_preview": "GoMixAPI, an enterprise-ready Southeast Asia-focused AI gateway operated by Hong Kong-licensed YiMay..."
       }
     },
     "dola-Seed-2.0-pro": {
       "code_generation": {
         "success": true,
-        "time_seconds": 22.46,
-        "output_length": 853,
-        "output_tokens": 954,
-        "output_preview": "Here is a robust, production-ready implementation with proper validation, documentation and efficien..."
+        "time_seconds": 13.46,
+        "output_length": 766,
+        "output_tokens": 996,
+        "output_preview": "Here is a robust, production-ready implementation with proper input validation, edge case handling a..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 8.18,
-        "output_length": 336,
-        "output_tokens": 371,
-        "output_preview": "### Translation (idiomatic, natural for business/tech contexts which this sentence is typically used..."
+        "time_seconds": 5.67,
+        "output_length": 437,
+        "output_tokens": 341,
+        "output_preview": "### Standard natural Chinese translation:\n**人工智能正在重塑整个东南亚地区的各行各业。**\n\n---\n*Note: This translation use..."
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 6.86,
-        "output_length": 319,
-        "output_tokens": 305,
+        "time_seconds": 9.37,
+        "output_length": 316,
+        "output_tokens": 285,
         "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, operated by Hong Kong-licensed YiMay ..."
       }
     },
     "dola-Seed-2.1-turbo": {
       "code_generation": {
         "success": true,
-        "time_seconds": 44.35,
-        "output_length": 771,
-        "output_tokens": 2650,
-        "output_preview": "### Recommended Implementation: Iterative Approach\nThis is the most practical and efficient method (..."
+        "time_seconds": 56.55,
+        "output_length": 745,
+        "output_tokens": 3756,
+        "output_preview": "### Fibonacci Sequence Function (Iterative, Recommended)\nThe Fibonacci sequence is defined such that..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 27.26,
-        "output_length": 370,
-        "output_tokens": 1523,
-        "output_preview": "### Standard natural translation (fits formal/business/tech contexts, which this statement is common..."
+        "time_seconds": 26.2,
+        "output_length": 382,
+        "output_tokens": 1457,
+        "output_preview": "### Standard natural Chinese translation (suitable for formal, business, and general contexts):\n**人工..."
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 12.67,
-        "output_length": 330,
-        "output_tokens": 780,
-        "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia operated by Hong Kong-licensed entity ..."
+        "time_seconds": 11.33,
+        "output_length": 334,
+        "output_tokens": 655,
+        "output_preview": "GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, operated by Hong Kong-licensed entity..."
       }
     },
     "hy3": {
       "code_generation": {
         "success": true,
-        "time_seconds": 2.6,
+        "time_seconds": 3.34,
         "output_length": 0,
         "output_tokens": 200,
         "output_preview": ""
       },
       "translation": {
         "success": true,
-        "time_seconds": 2.0,
+        "time_seconds": 2.2,
         "output_length": 0,
         "output_tokens": 100,
         "output_preview": ""
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 1.96,
+        "time_seconds": 2.14,
         "output_length": 0,
         "output_tokens": 80,
         "output_preview": ""
@@ -326,21 +326,21 @@
     "kimi-k3": {
       "code_generation": {
         "success": true,
-        "time_seconds": 6.51,
+        "time_seconds": 5.23,
         "output_length": 0,
         "output_tokens": 200,
         "output_preview": ""
       },
       "translation": {
         "success": true,
-        "time_seconds": 3.14,
+        "time_seconds": 3.6,
         "output_length": 0,
         "output_tokens": 100,
         "output_preview": ""
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 5.0,
+        "time_seconds": 3.13,
         "output_length": 0,
         "output_tokens": 80,
         "output_preview": ""
@@ -348,58 +348,64 @@
     },
     "glm-5.1": {
       "code_generation": {
-        "success": false,
-        "time_seconds": 23.59,
-        "error": "object of type 'NoneType' has no len()"
-      },
-      "translation": {
-        "success": false,
-        "time_seconds": 14.9,
-        "error": "object of type 'NoneType' has no len()"
-      },
-      "long_context_summary": {
-        "success": false,
-        "time_seconds": 14.8,
-        "error": "object of type 'NoneType' has no len()"
-      }
-    },
-    "glm-5.2": {
-      "code_generation": {
         "success": true,
-        "time_seconds": 5.01,
-        "output_length": 218,
-        "output_tokens": 200,
-        "output_preview": "Below is a Python function that generates the Fibonacci sequence up to `n` terms. It uses an iterati..."
-      },
-      "translation": {
-        "success": false,
-        "time_seconds": 11.78,
-        "error": "object of type 'NoneType' has no len()"
-      },
-      "long_context_summary": {
-        "success": false,
-        "time_seconds": 11.44,
-        "error": "object of type 'NoneType' has no len()"
-      }
-    },
-    "glm-5-turbo": {
-      "code_generation": {
-        "success": true,
-        "time_seconds": 8.93,
-        "output_length": 0,
-        "output_tokens": 200,
-        "output_preview": ""
+        "time_seconds": 10.15,
+        "output_length": 231,
+        "output_tokens": 1037,
+        "output_preview": "```python\n\ndef fibonacci(n):\n    \"\"\"Return a list of the first n Fibonacci numbers.\"\"\"\n    fib_seque..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 6.69,
+        "time_seconds": 5.46,
         "output_length": 0,
         "output_tokens": 100,
         "output_preview": ""
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 4.67,
+        "time_seconds": 2.35,
+        "output_length": 0,
+        "output_tokens": 80,
+        "output_preview": ""
+      }
+    },
+    "glm-5.2": {
+      "code_generation": {
+        "success": true,
+        "time_seconds": 10.84,
+        "output_length": 505,
+        "output_tokens": 200,
+        "output_preview": "Below is a Python function that generates the Fibonacci sequence up to `n` terms. It handles edge ca..."
+      },
+      "translation": {
+        "success": false,
+        "time_seconds": 12.28,
+        "error": "object of type 'NoneType' has no len()"
+      },
+      "long_context_summary": {
+        "success": false,
+        "time_seconds": 11.46,
+        "error": "object of type 'NoneType' has no len()"
+      }
+    },
+    "glm-5-turbo": {
+      "code_generation": {
+        "success": true,
+        "time_seconds": 8.57,
+        "output_length": 0,
+        "output_tokens": 200,
+        "output_preview": ""
+      },
+      "translation": {
+        "success": true,
+        "time_seconds": 6.67,
+        "output_length": 0,
+        "output_tokens": 100,
+        "output_preview": ""
+      },
+      "long_context_summary": {
+        "success": true,
+        "time_seconds": 6.66,
         "output_length": 0,
         "output_tokens": 80,
         "output_preview": ""
@@ -408,21 +414,21 @@
     "glm-5v-turbo": {
       "code_generation": {
         "success": true,
-        "time_seconds": 4.39,
+        "time_seconds": 6.74,
         "output_length": 0,
         "output_tokens": 200,
         "output_preview": ""
       },
       "translation": {
         "success": true,
-        "time_seconds": 2.07,
+        "time_seconds": 3.08,
         "output_length": 0,
         "output_tokens": 100,
         "output_preview": ""
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 2.01,
+        "time_seconds": 3.52,
         "output_length": 0,
         "output_tokens": 80,
         "output_preview": ""
@@ -431,21 +437,21 @@
     "hy-mt2-plus": {
       "code_generation": {
         "success": true,
-        "time_seconds": 1.88,
+        "time_seconds": 1.87,
         "output_length": 818,
         "output_tokens": 200,
         "output_preview": "To solve this problem, we need to generate the Fibonacci sequence up to `n` terms. The Fibonacci seq..."
       },
       "translation": {
         "success": true,
-        "time_seconds": 0.48,
+        "time_seconds": 0.47,
         "output_length": 17,
         "output_tokens": 9,
         "output_preview": "人工智能正在改变东南亚的各个行业。"
       },
       "long_context_summary": {
         "success": true,
-        "time_seconds": 0.89,
+        "time_seconds": 0.9,
         "output_length": 252,
         "output_tokens": 58,
         "output_preview": "GoMixAPI is an enterprise-grade AI gateway from Hong Kong-based YiMay Technology that provides 20 pr..."
