@@ -6,6 +6,54 @@ Daily AI model performance comparison across code generation, translation, and l
 
 *(Auto-updated daily from our Benchmark script)*
 
+### 2026-10-04
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 2.89s | 1.7s | 1.82s |
+| deepseek-v4-pro-202606 | 12.91s | 3.91s | 3.07s |
+| qwen3.5-flash | 1.43s | 7.93s | 16.44s |
+| qwen3.6-flash | 9.75s | 5.24s | 7.55s |
+| qwen3.5-plus | 6.19s | 24.56s | 33.34s |
+| qwen3.7-plus | 25.39s | 48.4s | 16.38s |
+| qwen3.7-plus-1m | 20.87s | 7.86s | 16.38s |
+| qwq-plus | FAIL | 22.18s | 28.88s |
+| qwen3-vl-plus | 3.23s | 1.0s | 1.54s |
+| dola-Seed-2.0-mini | 8.02s | 4.09s | 2.54s |
+| dola-Seed-2.0-lite | 23.16s | 10.23s | 9.39s |
+| dola-Seed-2.0-pro | 20.31s | 6.09s | 7.39s |
+| dola-Seed-2.1-turbo | 58.2s | 36.04s | 16.23s |
+| hy3 | 2.43s | 2.0s | 1.9s |
+| kimi-k3 | 7.71s | 6.04s | 6.65s |
+| glm-5.1 | FAIL | FAIL | FAIL |
+| glm-5.2 | 5.1s | FAIL | FAIL |
+| glm-5-turbo | 10.88s | 4.67s | 5.71s |
+| glm-5v-turbo | 7.34s | 2.73s | 2.48s |
+| hy-mt2-plus | 1.84s | 0.51s | 0.85s |
+
+### 2026-10-03
+| Model | Code Generation | Translation | Long Context Summary |
+|-------|:--:|:--:|:--:|
+| deepseek-v4-flash-202605 | 3.36s | 2.33s | 2.0s |
+| deepseek-v4-pro-202606 | 4.36s | 6.51s | 2.71s |
+| qwen3.5-flash | 1.59s | 12.77s | 5.98s |
+| qwen3.6-flash | 15.92s | 9.99s | 6.09s |
+| qwen3.5-plus | 5.85s | 32.87s | 105.72s |
+| qwen3.7-plus | 27.63s | 8.06s | 25.01s |
+| qwen3.7-plus-1m | 27.28s | 7.48s | 21.78s |
+| qwq-plus | 165.84s | 18.2s | 18.33s |
+| qwen3-vl-plus | 2.99s | 0.42s | 1.15s |
+| dola-Seed-2.0-mini | 5.59s | 3.8s | 2.54s |
+| dola-Seed-2.0-lite | 19.59s | 13.53s | 6.68s |
+| dola-Seed-2.0-pro | 21.01s | 6.81s | 5.75s |
+| dola-Seed-2.1-turbo | 26.02s | 19.54s | 13.43s |
+| hy3 | 2.72s | 2.1s | 1.9s |
+| kimi-k3 | 6.41s | 4.69s | 4.58s |
+| glm-5.1 | FAIL | FAIL | FAIL |
+| glm-5.2 | 4.78s | FAIL | FAIL |
+| glm-5-turbo | 8.86s | 7.51s | 6.55s |
+| glm-5v-turbo | 3.74s | 2.45s | 2.48s |
+| hy-mt2-plus | 1.85s | 0.48s | 0.82s |
+
 ### 2026-10-02
 | Model | Code Generation | Translation | Long Context Summary |
 |-------|:--:|:--:|:--:|
