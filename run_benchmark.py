@@ -8,7 +8,7 @@ API_KEY = os.environ.get('GOMIXAPI_BENCHMARK_KEY', 'YOUR_KEY_HERE')
 BASE_URL = 'https://api.gomixapi.com/v1'
 OUTPUT_DIR = '/opt/gomixapi-benchmark/data'
 
-MODELS = ['deepseek-v4-flash-202605', 'deepseek-v4-pro-202606', 'qwen3.5-flash', 'qwen3.6-flash', 'qwen3.5-plus', 'qwen3.7-plus', 'qwen3.7-plus-1m', 'qwq-plus', 'qwen3-vl-plus', 'dola-Seed-2.0-mini', 'dola-Seed-2.0-lite', 'dola-Seed-2.0-pro', 'dola-Seed-2.1-turbo', 'hy3', 'kimi-k3', 'glm-5.1', 'glm-5.2', 'glm-5-turbo', 'glm-5v-turbo', 'hy-mt2-plus']
+MODELS = ['deepseek-v4-flash-202605', 'deepseek-v4-pro-202606', 'qwen3.5-flash', 'qwen3.6-flash', 'qwen3.5-plus', 'qwen3.7-plus', 'qwen3.7-plus-1m', 'qwen3-vl-plus', 'dola-Seed-2.0-mini', 'dola-Seed-2.0-lite', 'dola-Seed-2.0-pro', 'dola-Seed-2.1-turbo', 'hy3', 'kimi-k3', 'glm-5.2', 'glm-5-turbo', 'glm-5v-turbo', 'hy-mt2-plus']
 
 TESTS = {
     'code_generation': {
