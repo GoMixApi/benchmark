@@ -22,7 +22,7 @@ TESTS = {
     'long_context_summary': {
         'prompt': (
             'Summarize in one sentence: '
-            'GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, offering 20 curated models '
+            'GoMixAPI is an enterprise-ready AI gateway for Southeast Asia, offering curated leading models '
             '(DeepSeek, Qwen, GLM, Hunyuan, Dola) through one OpenAI-compatible endpoint. '
             'Operated by YiMay Technology Limited, a Hong Kong-licensed entity, with zero data retention, '
             'SCC 2021/914, DPA ready, and unified billing.'
