@@ -46,7 +46,9 @@ def run_test(model, test_name, test_config, max_retries=2, timeout=60):
                 timeout=timeout
             )
             elapsed = round(time.time() - start, 2)
-            out = resp.choices[0].message.content
+            msg = resp.choices[0].message
+            out = msg.content or getattr(msg, 'reasoning_content', '') or ""
+
             return {
                 'success': True,
                 'time_seconds': elapsed,
